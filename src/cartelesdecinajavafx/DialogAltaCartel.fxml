@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="247.0" prefWidth="557.0" style="-fx-background-color: #ADD8E6;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="cartelesdecinajavafx.DialogAltaCartel">
+   <children>
+      <Label layoutX="22.0" layoutY="60.0" prefHeight="15.0" prefWidth="48.0" text="Titulo">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="22.0" layoutY="99.0" prefHeight="15.0" prefWidth="56.0" text="Año">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="14.0" layoutY="137.0" prefHeight="16.0" prefWidth="134.0" text="Ruta Imagen:">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+      <Button fx:id="botonAceptar" layoutX="39.0" layoutY="189.0" mnemonicParsing="false" onAction="#addAltaCartel" text="Aceptar">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Button>
+      <Button fx:id="botonCancelar" layoutX="249.0" layoutY="189.0" mnemonicParsing="false" onAction="#cancelarAltaCartel" text="Cancelar">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Button>
+      <TextField fx:id="txtTitulo" layoutX="81.0" layoutY="56.0" prefHeight="25.0" prefWidth="430.0" />
+      <TextField fx:id="txtYear" layoutX="81.0" layoutY="95.0" prefHeight="25.0" prefWidth="56.0" />
+      <TextField fx:id="txtRutaImagen" layoutX="121.0" layoutY="133.0" prefHeight="25.0" prefWidth="305.0" />
+      <Button fx:id="botonElegirImagen" layoutX="434.0" layoutY="133.0" mnemonicParsing="false" onAction="#botonRutaCartel" text="Elegir Imagen">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Button>
+   </children>
+</Pane>
